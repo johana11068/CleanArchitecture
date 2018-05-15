@@ -7,5 +7,6 @@ package com.example.aula7.cleanarchitecture.calcular.presenter;
 public interface MainActivityPresenter {
     void showResult(String result);
     void showError(String error);
+    void suma(String num1, String num2);
 
 }
